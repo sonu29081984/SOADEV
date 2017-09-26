@@ -65,6 +65,7 @@
         <to>$outputVariable.payload/client:result</to>
       </copy>
     </assign>
+    <assign name="Assign2"></assign>
     <!-- Generate reply to synchronous request -->
     <reply name="replyOutput" partnerLink="testgitbpelprocess_client" portType="client:TestGITBPELProcess" operation="process" variable="outputVariable"/>
   </sequence>
